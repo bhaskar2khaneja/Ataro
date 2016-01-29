@@ -1,0 +1,17 @@
+@font-face {
+  src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+.background {
+  -fx-background-color: #00288C;
+}
+
+.label {
+  -fx-text-fill: #FFFFFF;
+  -fx-font-family: "Press Start 2P";
+  -fx-font-size: 24px;
+}
+
+.ImageView {
+  
+}

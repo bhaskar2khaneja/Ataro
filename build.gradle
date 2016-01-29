@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+defaultTasks 'jar'
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'mule.Mule'
+  }
+}
+
+sourceSets {
+  main {
+    resources.srcDirs = ["src/main/resources"]
+  }
+}
